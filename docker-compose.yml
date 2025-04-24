@@ -4,4 +4,4 @@ services:
     ports:
       - "4500:80"
     volumes:
-      - ./www:/app
+      - .:/app
